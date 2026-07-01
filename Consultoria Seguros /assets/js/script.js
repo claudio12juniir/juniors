@@ -172,7 +172,7 @@
     };
 
     var message = [
-      'Olá! Vim pelo site da Cláudio Júnior Soluções em Seguros e quero uma cotação de seguro auto.',
+      'Olá! Vim pelo site da Cláudio Júnior Proteção Veicular e quero uma cotação de seguro auto.',
       '',
       '👤 Nome: ' + data.nome,
       '📱 WhatsApp: ' + data.whatsapp,
