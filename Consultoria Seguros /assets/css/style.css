@@ -163,6 +163,12 @@ img, svg { display: block; max-width: 100%; }
   background-clip: text;
   color: transparent;
 }
+.brand-divider {
+  font-size: 16px;
+  font-weight: 400;
+  color: rgba(62,62,62,0.25);
+  line-height: 1;
+}
 .brand-sub {
   font-size: 11px;
   font-weight: 500;
@@ -616,6 +622,7 @@ img, svg { display: block; max-width: 100%; }
   border-bottom: 1px solid rgba(249,246,233,0.1);
 }
 .footer-brand .brand-text strong { font-size: 19px; }
+.footer-brand .brand-divider { color: rgba(249,246,233,0.25); }
 .footer-brand .brand-sub { color: rgba(249,246,233,0.45); }
 .footer-brand p { font-size: 13.5px; margin-top: 8px; max-width: 280px; }
 .footer-links { display: flex; gap: 26px; flex-wrap: wrap; }
@@ -663,6 +670,8 @@ img, svg { display: block; max-width: 100%; }
   .main-nav, .header-actions { display: none; }
   .nav-toggle { display: flex; }
   .header-inner { height: 70px; }
+  .brand-divider, .brand-sub { display: none; }
+  .brand-text strong { font-size: 19px; }
   .site-header.nav-open .header-inner { flex-wrap: wrap; height: auto; padding-bottom: 20px; }
   .site-header.nav-open .main-nav {
     display: flex; flex-direction: column; align-items: stretch; gap: 4px;
