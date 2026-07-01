@@ -302,6 +302,11 @@ img, svg { display: block; max-width: 100%; }
   background: rgba(110,231,160,0.1); border: 1px solid rgba(110,231,160,0.25);
   border-radius: var(--radius-sm); color: #9be8b8; font-size: 13px; font-weight: 600;
 }
+.quote-disclaimer {
+  display: block; margin-top: 10px;
+  font-size: 10.5px; line-height: 1.5;
+  color: rgba(249,246,233,0.4);
+}
 
 .float-chip {
   position: absolute;
